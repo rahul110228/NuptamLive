@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="match_parent"
+        android:background="#ece2e2"
+        android:fillViewport="true">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tlGridTable" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/a"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:id="@+id/textView"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:textColor="#fff"
+                            android:text="Wellcome to Nuptam Live"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="150dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:inputType="text"
+                            android:focusable="false"
+                            android:windowSoftInputMode="stateHidden"
+                            android:hint="       Where you are travelling?"
+                            android:padding="15dp"
+                            android:background="@drawable/round_button"
+                            android:layout_alignParentBottom="true"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center">
+
+
+                        <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/btFacebook"
+                        android:scaleType="fitXY"
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:cropToPadding="false"
+                        android:background="@drawable/round_button"
+                        android:src="@drawable/pl1">
+                    </android.support.v7.widget.AppCompatImageButton>
+
+                        <android.support.v7.widget.AppCompatImageButton
+                            android:id="@+id/btGooglePlus"
+                            android:scaleType="fitXY"
+                            android:layout_width="70dip"
+                            android:layout_height="70dip"
+                            android:cropToPadding="false"
+                            android:layout_marginLeft="25sp"
+                            android:background="@drawable/round_button"
+                            android:src="@drawable/pl2">
+                        </android.support.v7.widget.AppCompatImageButton>
+
+                        <android.support.v7.widget.AppCompatImageButton
+                            android:id="@+id/btFacebook3"
+                            android:scaleType="fitXY"
+                            android:layout_width="70dip"
+                            android:layout_height="70dip"
+                            android:cropToPadding="false"
+                            android:layout_marginLeft="25sp"
+
+                            android:background="@drawable/round_button"
+                            android:src="@drawable/pl4">
+                        </android.support.v7.widget.AppCompatImageButton>
+
+                        <android.support.v7.widget.AppCompatImageButton
+                            android:id="@+id/btGooglePlus2"
+                            android:scaleType="fitXY"
+                            android:layout_width="70dip"
+                            android:layout_height="70dip"
+                            android:cropToPadding="false"
+                            android:layout_marginLeft="25sp"
+                            android:background="@drawable/round_button"
+                            android:src="@drawable/pl3">
+                        </android.support.v7.widget.AppCompatImageButton>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </TableLayout>
+    </ScrollView>
+</LinearLayout>
