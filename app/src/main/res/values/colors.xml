@@ -22,4 +22,8 @@
     <color name="bg_gradient_start">#9553d4</color>
     <color name="bg_gradient_end">#7c31be</color>
     <color name="bg_button_login">#6704a9</color>
+
+    <color name="accent_dark">#ff2929</color>
+    <color name="secondary_text">#727272</color>
+    <color name="white_overlay">#F3F3F3</color>
 </resources>
